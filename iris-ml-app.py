@@ -51,5 +51,5 @@ st.write(prediction_proba)
 from PIL import Image
 image = Image.open('iris.jpg')
 st.image(image, caption='Iris Species <source: https://morioh.com/p/eafb28ccf4e3>')
-st.flowers()
+st.balloons()
 #https://docs.google.com/spreadsheets/d/1g1twp96TyiSBSaxrxqw5I3ISgZAqY_O6gqWtwH-PMWY/edit#gid=776716004
