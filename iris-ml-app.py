@@ -4,7 +4,7 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
-# Farhin's first app
+# Farhin's First App
 # Simple Iris Flower Prediction App
 This app predicts the **Iris flower** type!
 """)
@@ -50,4 +50,6 @@ st.write(prediction_proba)
 
 from PIL import Image
 image = Image.open('iris.jpg')
-st.image(image, caption='Iris Species''\n''<source: https://morioh.com/p/eafb28ccf4e3>')
+st.image(image, caption='Iris Species <source: https://morioh.com/p/eafb28ccf4e3>')
+st.flowers()
+#https://docs.google.com/spreadsheets/d/1g1twp96TyiSBSaxrxqw5I3ISgZAqY_O6gqWtwH-PMWY/edit#gid=776716004
