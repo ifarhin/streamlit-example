@@ -51,3 +51,4 @@ st.write(prediction_proba)
 from PIL import Image
 image = Image.open('iris.jpg')
 st.image(image, caption='Iris Species')
+#https://morioh.com/p/eafb28ccf4e3
