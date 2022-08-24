@@ -50,4 +50,4 @@ st.write(prediction_proba)
 
 from PIL import Image
 image = Image.open('iris.jpg')
-st.image(image, caption='Iris Species <source: https://morioh.com/p/eafb28ccf4e3>')
+st.image(image, caption='Iris Species \n <source: https://morioh.com/p/eafb28ccf4e3>')
